@@ -1,0 +1,56 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+    background-color: beige;
+}
+
+body{
+    margin: 1.5px 15px;
+}
+
+header{
+    margin: 7px;
+    padding: 12px;
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+.section1{
+    background-color: gray;
+    border: none;
+}
+
+section{
+    margin: 7px;
+    padding: 12px;
+    grid-column: 1/3;
+    grid-row: 2;
+}
+
+footer{
+    margin: 7px;
+    padding: 12px;
+    grid-column: 1/3;
+    grid-row: 4;
+}
+
+article{
+    margin: 7px;
+    padding: 12px;
+    grid-column: 1/2;
+    grid-row: 3;
+}
+
+aside{
+    margin: 7px;
+    padding: 12px;
+    grid-column: 2/2;
+    grid-row: 3;
+}
+
+.eachSection{
+    border: none;
+    margin: 15px;
+    background: gray;
+}
